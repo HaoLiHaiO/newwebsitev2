@@ -598,73 +598,6 @@ input, textarea {
 
 
 
-/*
-.contact {
-	width: 100%;
-	font-family: 'Open Sans', sans-serif;
-	font-size: 18px;
-
-	text-align: center;
-}
-
-
-
-input, textarea , button
-{
-  width: 100%;
-  margin: 10px 10px;
-  text-align: center;
-  font-size: 18px;
-  box-shadow: 10px 5px 5px grey;
-
-  
-}
-
-
-input {
-  height: 4vh;
-}
-
-*/
-
-/*
-.contact{
-	background-color: #f7f7f7;
-}
-
-.contact form{
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	flex-wrap: wrap;
-
-	max-width: 800px;
-	width: 80%;
-}
-
-.contact form input{
-	padding: 15px;
-	flex: 1;
-	margin-right: 30px;
-	font-size: 18px;
-	color: #555;
-}
-
-.contact form .btn{
-	padding: 18px 42px;
-}
-
-
-@media (max-width: 800px){
-
-	.contact form input{
-		flex-basis: 100%;
-		margin: 0 0 20px 0;
-	}
-
-}
-
-*/
 
 
 /*-------------
@@ -718,9 +651,20 @@ footer p a{
 
 }
 
+/* webdev section */
 
-/* -- Demo ads -- */
+.relief {
+	color: #2196F3;
+	font-weight: bold;
+}
 
-@media (max-width: 1200px) {
-	#bsaHolder{ display:none;}
+/* translation section */
+
+#upwork {
+	color: green;
+}
+
+#upwork:hover {
+	text-decoration: underline;
+	
 }
